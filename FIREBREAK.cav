@@ -1,0 +1,1394 @@
+
+GLASS 32 32
+ROCK nr  = 0
+ROCK nc  = 0
+ROCK n   = 0
+ROCK struck = 0
+ROCK moved = 0
+ROCK cur = 0
+ROCK cnt = 0
+ROCK k1  = 0
+ROCK k2  = 0
+ROCK k3  = 0
+ROCK eq3 = 0
+ROCK eq2 = 0
+ROCK out = 0
+ROCK tf  = 0
+ROCK af  = 0
+ROCK sf  = 0
+ROCK bf  = 0
+ROCK df  = 0
+ROCK c2  = 0
+ROCK c3  = 0
+ROCK run = 0
+
+
+ROCK hot  = 0
+ROCK bud  = 0
+ROCK bk   = 0
+ROCK go   = 0
+
+
+ROCK t2    = 0
+ROCK t3    = 0
+
+ROCK t1 = 0
+ROCK qm = 0
+
+ROCK dv = 0
+ROCK dw = 0
+ROCK dk = 0
+ROCK dq = 0
+
+ROCK keep = 0
+ROCK gon  = 0
+ROCK shut = 0
+ROCK more = 0
+ROCK rnd  = 0
+ROCK rn2  = 0
+ROCK dead = 0
+ROCK p1   = 0
+
+ROCK pa      = 0
+ROCK pa_spill = 0
+ROCK slack   = 0
+
+ROCK cx = 0
+ROCK px = 0
+ROCK cy = 0
+ROCK py = 0
+ROCK pz = 0
+
+POUCH sp     100 12
+
+POUCH fire    35 35
+POUCH next    35 35
+POUCH touched 35 35
+
+
+t2 = 1
+t1 = 1
+sp set t1 t2 17
+t1 = 2
+sp set t1 t2 17
+t1 = 3
+sp set t1 t2 18
+t1 = 4
+sp set t1 t2 17
+t1 = 5
+sp set t1 t2 19
+t1 = 6
+sp set t1 t2 17
+t1 = 98
+sp set t1 t2 25
+
+t2 = 2
+t1 = 1
+sp set t1 t2 17
+t1 = 2
+sp set t1 t2 17
+t1 = 3
+sp set t1 t2 18
+t1 = 4
+sp set t1 t2 17
+t1 = 5
+sp set t1 t2 19
+t1 = 6
+sp set t1 t2 17
+t1 = 7
+sp set t1 t2 16
+t1 = 8
+sp set t1 t2 18
+t1 = 9
+sp set t1 t2 17
+t1 = 10
+sp set t1 t2 18
+t1 = 11
+sp set t1 t2 18
+t1 = 12
+sp set t1 t2 18
+t1 = 98
+sp set t1 t2 29
+
+t2 = 3
+t1 = 1
+sp set t1 t2 7
+t1 = 2
+sp set t1 t2 6
+t1 = 3
+sp set t1 t2 8
+t1 = 4
+sp set t1 t2 7
+t1 = 5
+sp set t1 t2 6
+t1 = 6
+sp set t1 t2 8
+t1 = 7
+sp set t1 t2 7
+t1 = 8
+sp set t1 t2 8
+t1 = 9
+sp set t1 t2 8
+t1 = 10
+sp set t1 t2 8
+t1 = 98
+sp set t1 t2 23
+
+t2 = 4
+t1 = 1
+sp set t1 t2 6
+t1 = 2
+sp set t1 t2 5
+t1 = 3
+sp set t1 t2 7
+t1 = 4
+sp set t1 t2 6
+t1 = 5
+sp set t1 t2 5
+t1 = 6
+sp set t1 t2 7
+t1 = 7
+sp set t1 t2 6
+t1 = 8
+sp set t1 t2 7
+t1 = 9
+sp set t1 t2 7
+t1 = 10
+sp set t1 t2 7
+t1 = 11
+sp set t1 t2 28
+t1 = 12
+sp set t1 t2 28
+t1 = 13
+sp set t1 t2 29
+t1 = 14
+sp set t1 t2 28
+t1 = 15
+sp set t1 t2 30
+t1 = 16
+sp set t1 t2 28
+t1 = 17
+sp set t1 t2 28
+t1 = 18
+sp set t1 t2 29
+t1 = 19
+sp set t1 t2 29
+t1 = 20
+sp set t1 t2 30
+t1 = 98
+sp set t1 t2 29
+
+t2 = 5
+t1 = 1
+sp set t1 t2 4
+t1 = 2
+sp set t1 t2 16
+t1 = 3
+sp set t1 t2 7
+t1 = 4
+sp set t1 t2 16
+t1 = 5
+sp set t1 t2 8
+t1 = 6
+sp set t1 t2 17
+t1 = 7
+sp set t1 t2 4
+t1 = 8
+sp set t1 t2 18
+t1 = 9
+sp set t1 t2 8
+t1 = 10
+sp set t1 t2 18
+t1 = 11
+sp set t1 t2 5
+t1 = 12
+sp set t1 t2 19
+t1 = 13
+sp set t1 t2 6
+t1 = 14
+sp set t1 t2 19
+t1 = 15
+sp set t1 t2 7
+t1 = 16
+sp set t1 t2 19
+t1 = 17
+sp set t1 t2 8
+t1 = 18
+sp set t1 t2 19
+t1 = 98
+sp set t1 t2 26
+
+t2 = 6
+t1 = 1
+sp set t1 t2 18
+t1 = 2
+sp set t1 t2 17
+t1 = 3
+sp set t1 t2 19
+t1 = 4
+sp set t1 t2 17
+t1 = 5
+sp set t1 t2 17
+t1 = 6
+sp set t1 t2 18
+t1 = 7
+sp set t1 t2 18
+t1 = 8
+sp set t1 t2 18
+t1 = 9
+sp set t1 t2 18
+t1 = 10
+sp set t1 t2 19
+t1 = 98
+sp set t1 t2 17
+
+t2 = 7
+t1 = 1
+sp set t1 t2 15
+t1 = 2
+sp set t1 t2 17
+t1 = 3
+sp set t1 t2 17
+t1 = 4
+sp set t1 t2 18
+t1 = 5
+sp set t1 t2 14
+t1 = 6
+sp set t1 t2 19
+t1 = 7
+sp set t1 t2 15
+t1 = 8
+sp set t1 t2 19
+t1 = 9
+sp set t1 t2 18
+t1 = 10
+sp set t1 t2 19
+t1 = 11
+sp set t1 t2 19
+t1 = 12
+sp set t1 t2 19
+t1 = 13
+sp set t1 t2 20
+t1 = 14
+sp set t1 t2 19
+t1 = 98
+sp set t1 t2 21
+
+t2 = 8
+t1 = 1
+sp set t1 t2 14
+t1 = 2
+sp set t1 t2 12
+t1 = 3
+sp set t1 t2 15
+t1 = 4
+sp set t1 t2 12
+t1 = 5
+sp set t1 t2 16
+t1 = 6
+sp set t1 t2 12
+t1 = 7
+sp set t1 t2 20
+t1 = 8
+sp set t1 t2 12
+t1 = 9
+sp set t1 t2 21
+t1 = 10
+sp set t1 t2 12
+t1 = 11
+sp set t1 t2 22
+t1 = 12
+sp set t1 t2 12
+t1 = 13
+sp set t1 t2 12
+t1 = 14
+sp set t1 t2 14
+t1 = 15
+sp set t1 t2 17
+t1 = 16
+sp set t1 t2 14
+t1 = 17
+sp set t1 t2 19
+t1 = 18
+sp set t1 t2 14
+t1 = 19
+sp set t1 t2 24
+t1 = 20
+sp set t1 t2 14
+t1 = 21
+sp set t1 t2 12
+t1 = 22
+sp set t1 t2 15
+t1 = 23
+sp set t1 t2 17
+t1 = 24
+sp set t1 t2 15
+t1 = 25
+sp set t1 t2 19
+t1 = 26
+sp set t1 t2 15
+t1 = 27
+sp set t1 t2 24
+t1 = 28
+sp set t1 t2 15
+t1 = 29
+sp set t1 t2 12
+t1 = 30
+sp set t1 t2 16
+t1 = 31
+sp set t1 t2 17
+t1 = 32
+sp set t1 t2 16
+t1 = 33
+sp set t1 t2 19
+t1 = 34
+sp set t1 t2 16
+t1 = 35
+sp set t1 t2 24
+t1 = 36
+sp set t1 t2 16
+t1 = 37
+sp set t1 t2 14
+t1 = 38
+sp set t1 t2 17
+t1 = 39
+sp set t1 t2 15
+t1 = 40
+sp set t1 t2 17
+t1 = 41
+sp set t1 t2 16
+t1 = 42
+sp set t1 t2 17
+t1 = 43
+sp set t1 t2 20
+t1 = 44
+sp set t1 t2 17
+t1 = 45
+sp set t1 t2 21
+t1 = 46
+sp set t1 t2 17
+t1 = 47
+sp set t1 t2 22
+t1 = 48
+sp set t1 t2 17
+t1 = 49
+sp set t1 t2 14
+t1 = 50
+sp set t1 t2 19
+t1 = 51
+sp set t1 t2 15
+t1 = 52
+sp set t1 t2 19
+t1 = 53
+sp set t1 t2 16
+t1 = 54
+sp set t1 t2 19
+t1 = 55
+sp set t1 t2 20
+t1 = 56
+sp set t1 t2 19
+t1 = 57
+sp set t1 t2 21
+t1 = 58
+sp set t1 t2 19
+t1 = 59
+sp set t1 t2 22
+t1 = 60
+sp set t1 t2 19
+t1 = 61
+sp set t1 t2 12
+t1 = 62
+sp set t1 t2 20
+t1 = 63
+sp set t1 t2 17
+t1 = 64
+sp set t1 t2 20
+t1 = 65
+sp set t1 t2 19
+t1 = 66
+sp set t1 t2 20
+t1 = 67
+sp set t1 t2 24
+t1 = 68
+sp set t1 t2 20
+t1 = 69
+sp set t1 t2 12
+t1 = 70
+sp set t1 t2 21
+t1 = 71
+sp set t1 t2 17
+t1 = 72
+sp set t1 t2 21
+t1 = 73
+sp set t1 t2 19
+t1 = 74
+sp set t1 t2 21
+t1 = 75
+sp set t1 t2 24
+t1 = 76
+sp set t1 t2 21
+t1 = 77
+sp set t1 t2 12
+t1 = 78
+sp set t1 t2 22
+t1 = 79
+sp set t1 t2 17
+t1 = 80
+sp set t1 t2 22
+t1 = 81
+sp set t1 t2 19
+t1 = 82
+sp set t1 t2 22
+t1 = 83
+sp set t1 t2 24
+t1 = 84
+sp set t1 t2 22
+t1 = 85
+sp set t1 t2 14
+t1 = 86
+sp set t1 t2 24
+t1 = 87
+sp set t1 t2 15
+t1 = 88
+sp set t1 t2 24
+t1 = 89
+sp set t1 t2 16
+t1 = 90
+sp set t1 t2 24
+t1 = 91
+sp set t1 t2 20
+t1 = 92
+sp set t1 t2 24
+t1 = 93
+sp set t1 t2 21
+t1 = 94
+sp set t1 t2 24
+t1 = 95
+sp set t1 t2 22
+t1 = 96
+sp set t1 t2 24
+t1 = 98
+sp set t1 t2 121
+
+t2 = 9
+t1 = 1
+sp set t1 t2 20
+t1 = 2
+sp set t1 t2 16
+t1 = 3
+sp set t1 t2 14
+t1 = 4
+sp set t1 t2 17
+t1 = 5
+sp set t1 t2 15
+t1 = 6
+sp set t1 t2 17
+t1 = 7
+sp set t1 t2 15
+t1 = 8
+sp set t1 t2 18
+t1 = 9
+sp set t1 t2 19
+t1 = 10
+sp set t1 t2 18
+t1 = 11
+sp set t1 t2 20
+t1 = 12
+sp set t1 t2 18
+t1 = 13
+sp set t1 t2 21
+t1 = 14
+sp set t1 t2 18
+t1 = 98
+sp set t1 t2 17
+
+t2 = 10
+t1 = 1
+sp set t1 t2 11
+t1 = 2
+sp set t1 t2 10
+t1 = 3
+sp set t1 t2 12
+t1 = 4
+sp set t1 t2 10
+t1 = 5
+sp set t1 t2 10
+t1 = 6
+sp set t1 t2 11
+t1 = 7
+sp set t1 t2 11
+t1 = 8
+sp set t1 t2 11
+t1 = 9
+sp set t1 t2 11
+t1 = 10
+sp set t1 t2 12
+t1 = 11
+sp set t1 t2 24
+t1 = 12
+sp set t1 t2 23
+t1 = 13
+sp set t1 t2 25
+t1 = 14
+sp set t1 t2 23
+t1 = 15
+sp set t1 t2 23
+t1 = 16
+sp set t1 t2 24
+t1 = 17
+sp set t1 t2 24
+t1 = 18
+sp set t1 t2 24
+t1 = 19
+sp set t1 t2 24
+t1 = 20
+sp set t1 t2 25
+t1 = 98
+sp set t1 t2 19
+
+t2 = 11
+t1 = 98
+sp set t1 t2 250
+
+t2 = 0
+t1 = 0
+sp set t1 t2 3
+t1 = 1
+sp set t1 t2 5
+t1 = 2
+sp set t1 t2 6
+t1 = 3
+sp set t1 t2 8
+t1 = 4
+sp set t1 t2 10
+t1 = 5
+sp set t1 t2 12
+t1 = 6
+sp set t1 t2 13
+t1 = 7
+sp set t1 t2 15
+t1 = 8
+sp set t1 t2 17
+t1 = 9
+sp set t1 t2 19
+t1 = 10
+sp set t1 t2 21
+t1 = 11
+sp set t1 t2 22
+t1 = 12
+sp set t1 t2 24
+t1 = 13
+sp set t1 t2 26
+t1 = 14
+sp set t1 t2 28
+t1 = 15
+sp set t1 t2 30
+
+RITUAL gen ;
+
+  nr = 32
+  nr HUNT
+    nr + 1
+    nc = 32
+    nc HUNT
+      nc + 1
+      cnt = 0
+
+      nc - 1
+      nr - 1
+      n
+      fire get nc nr
+      n HUNT
+        n = 0
+        cnt + 1
+        n
+      FIRE
+      nc + 1
+      nr + 1
+
+      nr - 1
+      n
+      fire get nc nr
+      n HUNT
+        n = 0
+        cnt + 1
+        n
+      FIRE
+      nr + 1
+
+      nc + 1
+      nr - 1
+      n
+      fire get nc nr
+      n HUNT
+        n = 0
+        cnt + 1
+        n
+      FIRE
+      nc - 1
+      nr + 1
+
+      nc - 1
+      n
+      fire get nc nr
+      n HUNT
+        n = 0
+        cnt + 1
+        n
+      FIRE
+      nc + 1
+
+      nc + 1
+      n
+      fire get nc nr
+      n HUNT
+        n = 0
+        cnt + 1
+        n
+      FIRE
+      nc - 1
+
+      nc - 1
+      nr + 1
+      n
+      fire get nc nr
+      n HUNT
+        n = 0
+        cnt + 1
+        n
+      FIRE
+      nc + 1
+      nr - 1
+
+      nr + 1
+      n
+      fire get nc nr
+      n HUNT
+        n = 0
+        cnt + 1
+        n
+      FIRE
+      nr - 1
+
+      nc + 1
+      nr + 1
+      n
+      fire get nc nr
+      n HUNT
+        n = 0
+        cnt + 1
+        n
+      FIRE
+      nc - 1
+      nr - 1
+      cur
+      fire get nc nr
+
+      k1 = 0
+      cnt
+      CLONE
+      k1 + 1
+      k2 = 3
+      k3 = 4
+      k1 HUNT
+        k1 - 1
+        k2 - 1
+        k3 - 1
+        k1
+      FIRE
+
+      eq2 = 1
+      k2 HUNT
+        eq2 = 0
+        k2 = 0
+        k2
+      FIRE
+      eq3 = 1
+      k3 HUNT
+        eq3 = 0
+        k3 = 0
+        k3
+      FIRE
+
+      out = 1
+      eq3 HUNT
+        out = 0
+        eq3 = 0
+        next set nc nr 1
+        touched set nc nr 1
+        eq3
+      FIRE
+      eq2 HUNT
+        out = 0
+        eq2 = 0
+        next set nc nr cur
+        eq2
+      FIRE
+      out HUNT
+        out = 0
+        next set nc nr 0
+        cur HUNT
+          cur = 0
+          touched set nc nr 1
+          cur
+        FIRE
+        out
+      FIRE
+
+      nc - 2
+    FIRE
+    nr - 2
+  FIRE
+
+  nr = 32
+  nr HUNT
+    nr + 1
+    nc = 32
+    nc HUNT
+      nc + 1
+      n
+      next get nc nr
+      n
+      fire set nc nr n
+      nc - 2
+    FIRE
+    nr - 2
+  FIRE
+END
+
+RITUAL draw ;
+  nr = 32
+  nr HUNT
+    nr + 1
+    nc = 32
+    nc HUNT
+      nc + 1
+      tf = 0
+      af = 0
+      sf = 1
+      n = 0
+      touched get nc nr
+      n HUNT
+        n = 0
+        af = 1
+        n = 0
+        fire get nc nr
+        n HUNT
+          n = 0
+          tf = 1
+          af = 0
+          n
+        FIRE
+        n
+      FIRE
+      tf HUNT
+        tf = 0
+        sf = 0
+        nc - 2
+        nr - 2
+        pa
+        PAINT "assets/fire.png" nc nr
+        nc + 2
+        nr + 2
+        tf
+      FIRE
+      af HUNT
+        af = 0
+        sf = 0
+        nc - 2
+        nr - 2
+        pa
+        PAINT "assets/ash.png" nc nr
+        nc + 2
+        nr + 2
+        af
+      FIRE
+      sf HUNT
+        sf = 0
+        nc - 2
+        nr - 2
+        pa
+        PAINT "assets/tree.png" nc nr
+        nc + 2
+        nr + 2
+        sf
+      FIRE
+      nc - 2
+    FIRE
+    nr - 2
+  FIRE
+END
+
+RITUAL strike ;
+  pa
+  CLICK cx cy
+
+pa HUNT
+
+    px = 0
+    py = 0
+    cx
+    CLONE
+    px
+    + 2
+    cy
+    CLONE
+    py
+    + 2
+    pa
+    struck = 1
+    pa = 0
+    pa
+  FIRE
+END
+
+RITUAL apply ;
+  df = 1
+  bf = 0
+  n
+  fire get px py
+  n HUNT
+    n = 0
+    bf = 1
+    df = 0
+    n
+  FIRE
+  pa
+  bf HUNT
+    bf = 0
+    fire set px py 0
+    touched set px py 1
+    bf
+  FIRE
+  pa
+  df HUNT
+    df = 0
+    fire set px py 1
+    touched set px py 1
+    df
+  FIRE
+END
+RITUAL turn ;
+  p1 = 0
+  moved = 1
+  moved HUNT
+    p1 = 16
+    NAP
+    FLIP
+
+    struck = 0
+    strike
+    moved = 1
+    struck HUNT
+      struck = 0
+      moved = 0
+      struck
+    FIRE
+
+    dead
+    DRY
+    dead HUNT
+      dead = 0
+      moved = 0
+      shut = 1
+      dead
+    FIRE
+    moved
+  FIRE
+END
+
+RITUAL score ;
+  t1 = 99
+  t2 = 0
+  t3 = 0
+  t3
+  sp get t1 t2
+  t1 = 98
+  bud
+  sp get t1 t3
+  nr = 32
+  nr HUNT
+    nr + 1
+    nc = 32
+    nc HUNT
+      nc + 1
+      n = 0
+      touched get nc nr
+      n HUNT
+        n = 0
+        bk = 0
+        bk
+        WHAT bud
+        bk HUNT
+          bk = 0
+          bud - 1
+          bk
+        FIRE
+        n
+      FIRE
+      nc - 2
+    FIRE
+    nr - 2
+  FIRE
+  t3 = 0
+END
+RITUAL blaze ;
+  hot = 0
+  nr = 32
+  nr HUNT
+    nr + 1
+    nc = 32
+    nc HUNT
+      nc + 1
+      c2 = 0
+      c3 = 0
+      n
+      fire get nc nr
+      n HUNT
+        n = 0
+        c2 = 1
+        n
+      FIRE
+      n = 0
+      touched get nc nr
+      n HUNT
+        n = 0
+        c3 = 1
+        n
+      FIRE
+      c2 HUNT
+        c2 = 0
+        c3 HUNT
+          c3 = 0
+          hot + 1
+          c3
+        FIRE
+        c2
+      FIRE
+      nc - 2
+    FIRE
+    nr - 2
+  FIRE
+END
+
+RITUAL pstar ;
+  pa
+  PAINT "assets/star.png" 0 31
+END
+
+RITUAL menu ;
+  nr = 32
+  nr HUNT
+    nc = 32
+    nc HUNT
+      nc - 1
+      nr - 1
+      pa
+      PAINT "assets/ash.png" nc nr
+      nc + 1
+      nr + 1
+      nc - 1
+    FIRE
+    nr - 1
+  FIRE
+
+  pa
+  PAINT "assets/d1.png" 2 0
+  pa
+  PAINT "assets/d2.png" 2 1
+  pa
+  PAINT "assets/d3.png" 2 2
+  pa
+  PAINT "assets/d4.png" 2 3
+  pa
+  PAINT "assets/d5.png" 2 4
+  pa
+  PAINT "assets/d6.png" 2 5
+  pa
+  PAINT "assets/d7.png" 2 6
+  pa
+  PAINT "assets/d8.png" 2 7
+  pa
+  PAINT "assets/d9.png" 2 8
+  pa
+  PAINT "assets/d0.png" 2 9
+  pa
+  PAINT "assets/star.png" 2 10
+FLIP
+END
+
+RITUAL div16 ;
+  dk = 16
+  dq = 0
+
+  dw = 0
+  dw
+  WHAT dv
+  dw > dk < GEQ
+  dw HUNT
+    dv - 16
+    dq + 1
+
+    dw = 0
+    dw
+    WHAT dv
+    dw > dk < GEQ
+    dw
+  FIRE
+END
+
+RITUAL wipe ;
+  nr = 32
+  nr HUNT
+    nr + 1
+    nc = 32
+    nc HUNT
+      nc + 1
+      fire set nc nr 0
+      touched set nc nr 0
+      nc - 2
+    FIRE
+    nr - 2
+  FIRE
+END
+
+
+RITUAL load ;
+  t1 = 99
+  t2 = 0
+  sp set t1 t2 cy
+  wipe
+  t1 = 1
+  nc
+  sp get t1 cy
+  t1 = 2
+  nr
+  sp get t1 cy
+  nc HUNT
+    fire set nc nr 1
+    touched set nc nr 1
+    t1 + 1
+    nc
+    sp get t1 cy
+    t1 + 1
+    nr
+    sp get t1 cy
+    nc
+  FIRE
+END
+
+RITUAL lit ;
+  fire set dq dv 1
+  touched set dq dv 1
+END
+
+RITUAL loadend ;
+  t1 = 99
+  t2 = 0
+  sp set t1 t2 11
+  wipe
+  rn2 = 0
+  rn2
+  WHAT rnd
+  rn2 HUNT
+    dv = 0
+    BONE
+    dw = 0
+    dw
+    WHAT dv
+    dk = 85
+    dw > dk < GEQ
+    eq2 = 0
+    WHEN dw
+      dw = 0
+      eq2 = 1
+      dw
+    END
+    dw = 0
+    dw
+    WHAT dv
+    dk = 170
+    dw > dk < GEQ
+    eq3 = 0
+    WHEN dw
+      dw = 0
+      eq3 = 1
+      dw
+    END
+    out = 1
+    t2 = 0
+    t3 = 0
+    WHEN eq3
+      t3 = 1
+      out = 0
+      eq2 = 0
+      eq3 = 0
+      eq3
+    END
+    WHEN eq2
+      t2 = 1
+      out = 0
+      eq2 = 0
+      eq2
+    END
+    dv = 0
+    BONE
+    div16
+    t1 = 0
+    dq
+    sp get dq t1
+    dv
+    sp get dv t1
+    WHEN out
+      out = 0
+      lit
+      dq + 1
+      lit
+      dq - 2
+      lit
+      dq + 1
+      out
+    END
+    WHEN t2
+      t2 = 0
+      dq + 1
+      lit
+      dq + 1
+      dv + 1
+      lit
+      dv + 1
+      dq - 2
+      lit
+      dq + 1
+      lit
+      dq + 1
+      lit
+      dq - 2
+      dv - 2
+      t2
+    END
+    WHEN t3
+      t3 = 0
+      dq + 1
+      lit
+      dq + 1
+      lit
+      dq - 2
+      dv + 1
+      lit
+      dq + 1
+      lit
+      dv + 1
+      lit
+      dq - 1
+      dv - 2
+      t3
+    END
+    rn2 - 1
+  FIRE
+END
+RITUAL reload ;
+  t1 = 99
+  t2 = 0
+  cy
+  sp get t1 t2
+  qm = 1
+  t3 = 0
+  py = 0
+  py
+  WHAT cy
+  py - 11
+  WHEN py
+    py = 0
+    qm = 0
+    t3 = 1
+    py
+  END
+  WHEN qm
+    qm = 0
+    loadend
+    qm
+  END
+  WHEN t3
+    t3 = 0
+    load
+    t3
+  END
+END
+
+RITUAL play ;
+  gon = 0
+  keep = 1
+  keep HUNT
+    shut = 0
+    turn
+    go = 1
+    t3 = 1
+    WHEN cx
+      t3 = 0
+      cx
+    END
+    cy - 31
+    WHEN cy
+      t3 = 0
+      cy
+    END
+    WHEN t3
+      keep = 0
+      gon = 1
+      go = 0
+      t3
+    END
+    WHEN go
+      apply
+      gen
+      blaze
+      t3 = 1
+      WHEN hot
+        t3 = 0
+        hot
+      END
+      WHEN t3
+        score
+        t2 = 1
+        WHEN bud
+          t2 = 0
+          keep = 0
+          bud
+        END
+        WHEN t2
+          reload
+          t2
+        END
+        t3
+      END
+      draw
+      pstar
+      go
+    END
+    WHEN shut
+      keep = 0
+      gon = 1
+      shut
+    END
+    keep
+  FIRE
+END
+RITUAL stone ;
+  t3 = 1
+  px = 0
+  px
+  WHAT cx
+  px - 2
+  px HUNT
+    px = 0
+    t3 = 0
+    px
+  FIRE
+  pz = 11
+  py = 0
+  py
+  WHAT cy
+  py > pz < GEQ
+  py HUNT
+    py = 0
+    t3 = 0
+    py
+  FIRE
+
+  slack = 1
+  t3 HUNT
+    t3 = 0
+    cy + 1
+    slack = 0
+    t3
+  FIRE
+  slack HUNT
+    slack = 0
+    cy = 0
+    slack
+  FIRE
+END
+
+RITUAL pick ;
+  gon = 0
+  qm = 1
+  qm HUNT
+    turn
+    WHEN shut
+      gon = 1
+      shut = 0
+      qm = 0
+      shut
+    END
+    stone
+    py = 0
+    py
+    WHAT cy
+    WHEN py
+      qm = 0
+      py
+    END
+    qm
+  FIRE
+END
+run = 1
+run HUNT
+  menu
+  pick
+  qm = 1
+  WHEN gon
+    qm = 0
+    gon
+  END
+  WHEN qm
+    py
+    WHAT cy
+    WHICH py
+      11 =>
+        rnd = 2
+        more = 1
+        more HUNT
+          more = 0
+          loadend
+          draw
+          pstar
+          play
+          t3 = 1
+          WHEN gon
+            t3 = 0
+            gon = 0
+            gon
+          END
+          WHEN t3
+            more = 1
+            rnd + 1
+            t3
+          END
+          more
+        FIRE
+        score
+      ELSE =>
+        load
+        draw
+        pstar
+        play
+        score
+    END
+    qm
+  END
+  gon = 0
+  turn
+  shut = 0
+  WHEN shut
+    gon = 1
+    shut
+  END
+  run = 1
+  WHEN gon
+    gon = 0
+    run = 0
+    gon
+  END
+  run
+FIRE
